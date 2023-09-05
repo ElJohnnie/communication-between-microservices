@@ -1,12 +1,12 @@
-package main.java.br.com.project.productapi.modules.category.service;
+package br.com.project.productapi.modules.category.service;
 
-import main.java.br.com.project.productapi.config.exception.SuccessResponse;
-import main.java.br.com.project.productapi.config.exception.ValidationException;
-import main.java.br.com.project.productapi.modules.category.dto.CategoryRequest;
-import main.java.br.com.project.productapi.modules.category.dto.CategoryResponse;
-import main.java.br.com.project.productapi.modules.category.model.Category;
-import main.java.br.com.project.productapi.modules.category.repository.CategoryRepository;
-import main.java.br.com.project.productapi.modules.product.service.ProductService;
+import br.com.project.productapi.config.exception.SuccessResponse;
+import br.com.project.productapi.config.exception.ValidationException;
+import br.com.project.productapi.modules.category.dto.CategoryRequest;
+import br.com.project.productapi.modules.category.dto.CategoryResponse;
+import br.com.project.productapi.modules.category.model.Category;
+import br.com.project.productapi.modules.category.repository.CategoryRepository;
+import br.com.project.productapi.modules.product.service.ProductService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;

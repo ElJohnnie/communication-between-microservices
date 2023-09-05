@@ -1,6 +1,6 @@
-package main.java.br.com.project.productapi.modules.sales.client;
+package br.com.project.productapi.modules.sales.client;
 
-import main.java.br.com.project.productapi.modules.sales.dto.SalesProductResponse;
+import br.com.project.productapi.modules.sales.dto.SalesProductResponse;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.service.annotation.GetExchange;

@@ -1,6 +1,6 @@
-package main.java.br.com.project.productapi.modules.sales.rabbitmq;
+package br.com.project.productapi.modules.sales.rabbitmq;
 
-import main.java.br.com.project.productapi.modules.sales.dto.SalesConfirmationDTO;
+import br.com.project.productapi.modules.sales.dto.SalesConfirmationDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

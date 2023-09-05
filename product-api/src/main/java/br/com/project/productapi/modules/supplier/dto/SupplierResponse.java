@@ -1,6 +1,6 @@
-package main.java.br.com.project.productapi.modules.supplier.dto;
+package br.com.project.productapi.modules.supplier.dto;
 
-import main.java.br.com.project.productapi.modules.supplier.model.Supplier;
+import br.com.project.productapi.modules.supplier.model.Supplier;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;
 

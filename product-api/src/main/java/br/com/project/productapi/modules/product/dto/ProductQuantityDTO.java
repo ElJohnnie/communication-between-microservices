@@ -1,4 +1,4 @@
-package main.java.br.com.project.productapi.modules.product.dto;
+package br.com.project.productapi.modules.product.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

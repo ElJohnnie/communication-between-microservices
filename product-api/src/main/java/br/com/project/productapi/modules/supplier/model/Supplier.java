@@ -1,6 +1,6 @@
-package main.java.br.com.project.productapi.modules.supplier.model;
+package br.com.project.productapi.modules.supplier.model;
 
-import main.java.br.com.project.productapi.modules.supplier.dto.SupplierRequest;
+import br.com.project.productapi.modules.supplier.dto.SupplierRequest;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

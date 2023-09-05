@@ -1,12 +1,12 @@
-package main.java.br.com.project.productapi.modules.supplier.service;
+package br.com.project.productapi.modules.supplier.service;
 
-import main.java.br.com.project.productapi.config.exception.SuccessResponse;
-import main.java.br.com.project.productapi.config.exception.ValidationException;
-import main.java.br.com.project.productapi.modules.product.service.ProductService;
-import main.java.br.com.project.productapi.modules.supplier.dto.SupplierRequest;
-import main.java.br.com.project.productapi.modules.supplier.dto.SupplierResponse;
-import main.java.br.com.project.productapi.modules.supplier.model.Supplier;
-import main.java.br.com.project.productapi.modules.supplier.repository.SupplierRepository;
+import br.com.project.productapi.config.exception.SuccessResponse;
+import br.com.project.productapi.config.exception.ValidationException;
+import br.com.project.productapi.modules.product.service.ProductService;
+import br.com.project.productapi.modules.supplier.dto.SupplierRequest;
+import br.com.project.productapi.modules.supplier.dto.SupplierResponse;
+import br.com.project.productapi.modules.supplier.model.Supplier;
+import br.com.project.productapi.modules.supplier.repository.SupplierRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;

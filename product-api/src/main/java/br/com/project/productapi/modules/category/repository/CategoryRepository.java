@@ -1,6 +1,6 @@
-package main.java.br.com.project.productapi.modules.category.repository;
+package br.com.project.productapi.modules.category.repository;
 
-import main.java.br.com.project.productapi.modules.category.model.Category;
+import br.com.project.productapi.modules.category.model.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

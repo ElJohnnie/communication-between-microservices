@@ -1,17 +1,17 @@
-package main.java.br.com.project.productapi.modules.product.service;
+package br.com.project.productapi.modules.product.service;
 
-import main.java.br.com.project.productapi.config.exception.SuccessResponse;
-import main.java.br.com.project.productapi.config.exception.ValidationException;
-import main.java.br.com.project.productapi.modules.category.service.CategoryService;
-import main.java.br.com.project.productapi.modules.product.dto.*;
-import main.java.br.com.project.productapi.modules.product.model.Product;
-import main.java.br.com.project.productapi.modules.product.repository.ProductRepository;
-import main.java.br.com.project.productapi.modules.sales.client.SalesClient;
-import main.java.br.com.project.productapi.modules.sales.dto.SalesConfirmationDTO;
-import main.java.br.com.project.productapi.modules.sales.dto.SalesProductResponse;
-import main.java.br.com.project.productapi.modules.sales.enums.SalesStatus;
-import main.java.br.com.project.productapi.modules.sales.rabbitmq.SalesConfirmationSender;
-import main.java.br.com.project.productapi.modules.supplier.service.SupplierService;
+import br.com.project.productapi.config.exception.SuccessResponse;
+import br.com.project.productapi.config.exception.ValidationException;
+import br.com.project.productapi.modules.category.service.CategoryService;
+import br.com.project.productapi.modules.product.dto.*;
+import br.com.project.productapi.modules.product.model.Product;
+import br.com.project.productapi.modules.product.repository.ProductRepository;
+import br.com.project.productapi.modules.sales.client.SalesClient;
+import br.com.project.productapi.modules.sales.dto.SalesConfirmationDTO;
+import br.com.project.productapi.modules.sales.dto.SalesProductResponse;
+import br.com.project.productapi.modules.sales.enums.SalesStatus;
+import br.com.project.productapi.modules.sales.rabbitmq.SalesConfirmationSender;
+import br.com.project.productapi.modules.supplier.service.SupplierService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static main.java.br.com.project.productapi.config.RequestUtil.getCurrentRequest;
+import static br.com.project.productapi.config.RequestUtil.getCurrentRequest;
 import static org.springframework.util.ObjectUtils.isEmpty;
 
 @Slf4j

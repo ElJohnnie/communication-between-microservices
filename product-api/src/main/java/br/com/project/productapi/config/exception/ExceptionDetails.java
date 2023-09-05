@@ -1,4 +1,4 @@
-package main.java.br.com.project.productapi.config.exception;
+package br.com.project.productapi.config.exception;
 
 import lombok.Data;
 

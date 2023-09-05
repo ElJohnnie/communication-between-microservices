@@ -1,6 +1,6 @@
-package main.java.br.com.project.productapi.modules.category.dto;
+package br.com.project.productapi.modules.category.dto;
 
-import main.java.br.com.project.productapi.modules.category.model.Category;
+import br.com.project.productapi.modules.category.model.Category;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;
 

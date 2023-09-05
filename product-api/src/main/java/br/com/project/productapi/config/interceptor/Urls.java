@@ -1,4 +1,4 @@
-package main.java.br.com.project.productapi.config.interceptor;
+package br.com.project.productapi.config.interceptor;
 
 import java.util.List;
 

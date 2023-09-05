@@ -1,9 +1,9 @@
-package main.java.br.com.project.productapi.modules.category.controller;
+package br.com.project.productapi.modules.category.controller;
 
-import main.java.br.com.project.productapi.config.exception.SuccessResponse;
-import main.java.br.com.project.productapi.modules.category.dto.CategoryRequest;
-import main.java.br.com.project.productapi.modules.category.dto.CategoryResponse;
-import main.java.br.com.project.productapi.modules.category.service.CategoryService;
+import br.com.project.productapi.config.exception.SuccessResponse;
+import br.com.project.productapi.modules.category.dto.CategoryRequest;
+import br.com.project.productapi.modules.category.dto.CategoryResponse;
+import br.com.project.productapi.modules.category.service.CategoryService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

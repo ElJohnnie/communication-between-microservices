@@ -1,6 +1,6 @@
-package main.java.br.com.project.productapi.modules.product.repository;
+package br.com.project.productapi.modules.product.repository;
 
-import main.java.br.com.project.productapi.modules.product.model.Product;
+import br.com.project.productapi.modules.product.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package main.java.br.com.project.productapi.modules.jwt.dto;
+package br.com.project.productapi.modules.jwt.dto;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.jsonwebtoken.Claims;

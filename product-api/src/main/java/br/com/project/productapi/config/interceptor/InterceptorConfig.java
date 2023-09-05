@@ -1,6 +1,6 @@
-package main.java.br.com.project.productapi.config.interceptor;
+package br.com.project.productapi.config.interceptor;
 
-import main.java.br.com.project.productapi.modules.jwt.service.JwtService;
+import br.com.project.productapi.modules.jwt.service.JwtService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

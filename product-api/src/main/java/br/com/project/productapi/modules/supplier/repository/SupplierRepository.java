@@ -1,6 +1,6 @@
-package main.java.br.com.project.productapi.modules.supplier.repository;
+package br.com.project.productapi.modules.supplier.repository;
 
-import main.java.br.com.project.productapi.modules.supplier.model.Supplier;
+import br.com.project.productapi.modules.supplier.model.Supplier;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

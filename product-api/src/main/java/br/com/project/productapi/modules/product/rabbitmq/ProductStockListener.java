@@ -1,7 +1,7 @@
-package main.java.br.com.project.productapi.modules.product.rabbitmq;
+package br.com.project.productapi.modules.product.rabbitmq;
 
-import main.java.br.com.project.productapi.modules.product.dto.ProductStockDTO;
-import main.java.br.com.project.productapi.modules.product.service.ProductService;
+import br.com.project.productapi.modules.product.dto.ProductStockDTO;
+import br.com.project.productapi.modules.product.service.ProductService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;

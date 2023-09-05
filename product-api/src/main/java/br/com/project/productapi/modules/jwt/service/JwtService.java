@@ -1,7 +1,7 @@
-package main.java.br.com.project.productapi.modules.jwt.service;
+package br.com.project.productapi.modules.jwt.service;
 
-import main.java.br.com.project.productapi.config.exception.AuthenticationException;
-import main.java.br.com.project.productapi.modules.jwt.dto.JwtResponse;
+import br.com.project.productapi.config.exception.AuthenticationException;
+import br.com.project.productapi.modules.jwt.dto.JwtResponse;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Value;

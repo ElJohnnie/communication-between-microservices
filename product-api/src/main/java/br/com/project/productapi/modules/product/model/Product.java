@@ -1,8 +1,8 @@
-package main.java.br.com.project.productapi.modules.product.model;
+package br.com.project.productapi.modules.product.model;
 
-import main.java.br.com.project.productapi.modules.category.model.Category;
-import main.java.br.com.project.productapi.modules.product.dto.ProductRequest;
-import main.java.br.com.project.productapi.modules.supplier.model.Supplier;
+import br.com.project.productapi.modules.category.model.Category;
+import br.com.project.productapi.modules.product.dto.ProductRequest;
+import br.com.project.productapi.modules.supplier.model.Supplier;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

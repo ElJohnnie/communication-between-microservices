@@ -1,7 +1,7 @@
-package main.java.br.com.project.productapi.config.interceptor;
+package br.com.project.productapi.config.interceptor;
 
-import main.java.br.com.project.productapi.config.exception.ValidationException;
-import main.java.br.com.project.productapi.modules.jwt.service.JwtService;
+import br.com.project.productapi.config.exception.ValidationException;
+import br.com.project.productapi.modules.jwt.service.JwtService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpMethod;
 import org.springframework.web.servlet.HandlerInterceptor;

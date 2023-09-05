@@ -1,4 +1,4 @@
-package main.java.br.com.project.productapi.config;
+package br.com.project.productapi.config;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;

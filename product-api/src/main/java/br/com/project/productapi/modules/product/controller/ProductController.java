@@ -1,11 +1,11 @@
-package main.java.br.com.project.productapi.modules.product.controller;
+package br.com.project.productapi.modules.product.controller;
 
-import main.java.br.com.project.productapi.config.exception.SuccessResponse;
-import main.java.br.com.project.productapi.modules.product.dto.ProductCheckStockRequest;
-import main.java.br.com.project.productapi.modules.product.dto.ProductRequest;
-import main.java.br.com.project.productapi.modules.product.dto.ProductResponse;
-import main.java.br.com.project.productapi.modules.product.dto.ProductSalesResponse;
-import main.java.br.com.project.productapi.modules.product.service.ProductService;
+import br.com.project.productapi.config.exception.SuccessResponse;
+import br.com.project.productapi.modules.product.dto.ProductCheckStockRequest;
+import br.com.project.productapi.modules.product.dto.ProductRequest;
+import br.com.project.productapi.modules.product.dto.ProductResponse;
+import br.com.project.productapi.modules.product.dto.ProductSalesResponse;
+import br.com.project.productapi.modules.product.service.ProductService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

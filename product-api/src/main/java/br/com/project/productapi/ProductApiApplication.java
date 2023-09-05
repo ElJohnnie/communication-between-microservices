@@ -1,4 +1,4 @@
-package main.java.br.com.project.productapi;
+package br.com.project.productapi;
 
 import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.boot.SpringApplication;

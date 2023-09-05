@@ -1,4 +1,4 @@
-package main.java.br.com.project.productapi.config.exception;
+package br.com.project.productapi.config.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

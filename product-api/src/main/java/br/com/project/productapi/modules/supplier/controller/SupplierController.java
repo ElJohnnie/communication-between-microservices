@@ -1,9 +1,9 @@
-package main.java.br.com.project.productapi.modules.supplier.controller;
+package br.com.project.productapi.modules.supplier.controller;
 
-import main.java.br.com.project.productapi.config.exception.SuccessResponse;
-import main.java.br.com.project.productapi.modules.supplier.dto.SupplierRequest;
-import main.java.br.com.project.productapi.modules.supplier.dto.SupplierResponse;
-import main.java.br.com.project.productapi.modules.supplier.service.SupplierService;
+import br.com.project.productapi.config.exception.SuccessResponse;
+import br.com.project.productapi.modules.supplier.dto.SupplierRequest;
+import br.com.project.productapi.modules.supplier.dto.SupplierResponse;
+import br.com.project.productapi.modules.supplier.service.SupplierService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

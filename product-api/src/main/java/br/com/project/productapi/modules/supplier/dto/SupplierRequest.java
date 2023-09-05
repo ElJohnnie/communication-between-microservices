@@ -1,4 +1,4 @@
-package main.java.br.com.project.productapi.modules.supplier.dto;
+package br.com.project.productapi.modules.supplier.dto;
 
 import lombok.Data;
 

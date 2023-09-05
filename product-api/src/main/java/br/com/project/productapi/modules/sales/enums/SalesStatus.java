@@ -1,4 +1,4 @@
-package main.java.br.com.project.productapi.modules.sales.enums;
+package br.com.project.productapi.modules.sales.enums;
 
 public enum SalesStatus {
 

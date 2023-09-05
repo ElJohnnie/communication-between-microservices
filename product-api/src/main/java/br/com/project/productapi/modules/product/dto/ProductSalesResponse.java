@@ -1,8 +1,8 @@
-package main.java.br.com.project.productapi.modules.product.dto;
+package br.com.project.productapi.modules.product.dto;
 
-import main.java.br.com.project.productapi.modules.category.dto.CategoryResponse;
-import main.java.br.com.project.productapi.modules.product.model.Product;
-import main.java.br.com.project.productapi.modules.supplier.dto.SupplierResponse;
+import br.com.project.productapi.modules.category.dto.CategoryResponse;
+import br.com.project.productapi.modules.product.model.Product;
+import br.com.project.productapi.modules.supplier.dto.SupplierResponse;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

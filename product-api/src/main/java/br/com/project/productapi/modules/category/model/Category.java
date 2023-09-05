@@ -1,6 +1,6 @@
-package main.java.br.com.project.productapi.modules.category.model;
+package br.com.project.productapi.modules.category.model;
 
-import main.java.br.com.project.productapi.modules.category.dto.CategoryRequest;
+import br.com.project.productapi.modules.category.dto.CategoryRequest;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

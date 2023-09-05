@@ -1,6 +1,6 @@
-package main.java.br.com.project.productapi.config;
+package br.com.project.productapi.config;
 
-import main.java.br.com.project.productapi.config.exception.ValidationException;
+import br.com.project.productapi.config.exception.ValidationException;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 

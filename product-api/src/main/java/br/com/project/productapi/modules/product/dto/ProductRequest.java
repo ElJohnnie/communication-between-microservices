@@ -1,4 +1,4 @@
-package main.java.br.com.project.productapi.modules.product.dto;
+package br.com.project.productapi.modules.product.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package main.java.br.com.project.productapi.config;
+package br.com.project.productapi.config;
 
-import main.java.br.com.project.productapi.modules.sales.client.SalesClient;
+import br.com.project.productapi.modules.sales.client.SalesClient;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
