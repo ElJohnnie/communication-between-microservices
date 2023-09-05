@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39f7485a-028d-4036-a40d-ea54d656b958" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/src/config/auth/AuthException.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/src/config/auth/checkToken.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/src/config/constants/httpStatus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/src/config/constants/secrets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/src/config/db/dbConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/src/config/db/initialData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/src/config/tracing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/src/modules/user/controller/UserController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/src/modules/user/exception/UserException.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/src/modules/user/model/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/src/modules/user/repository/UserRepository.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/src/modules/user/routes/UserRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/src/modules/user/service/UserService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-api/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../files/diagram.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongodb/init-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/ProductApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/StatusController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/config/HttpInterfaceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/config/RequestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/config/exception/AuthenticationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/config/exception/ExceptionDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/config/exception/ExceptionGlobalHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/config/exception/SuccessResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/config/exception/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/config/interceptor/AuthInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/config/interceptor/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/config/interceptor/Urls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/category/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/category/dto/CategoryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/category/dto/CategoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/category/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/category/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/category/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/jwt/dto/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/jwt/service/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/product/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/product/dto/ProductCheckStockRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/product/dto/ProductQuantityDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/product/dto/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/product/dto/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/product/dto/ProductSalesResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/product/dto/ProductStockDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/product/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/product/rabbitmq/ProductStockListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/product/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/product/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/sales/client/SalesClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/sales/dto/SalesConfirmationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/sales/dto/SalesProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/sales/enums/SalesStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/sales/rabbitmq/SalesConfirmationSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/supplier/controller/SupplierController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/supplier/dto/SupplierRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/supplier/dto/SupplierResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/supplier/model/Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/supplier/repository/SupplierRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/br/com/project/productapi/modules/supplier/service/SupplierService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/resources/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/system.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/auth/AuthException.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/auth/checkToken.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/constants/httpStatus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/constants/secrets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/db/initialData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/db/mongoDbConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/rabbitmq/queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/rabbitmq/rabbitConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/tracing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product/client/ProductClient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product/rabbitmq/productStockUpdateSender.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/sales/controller/OrderController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/sales/exception/OrderException.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/sales/model/Order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/sales/rabbitmq/salesConfirmationListener.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/sales/repository/OrderRepository.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/sales/routes/OrderRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/sales/service/OrderService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/sales/status/OrderStatus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2UzjLCDJLwYqz7Ky3IAZc5zEjdo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/jonatha.follmer/Área de Trabalho/communication-between-microservices/sales-api"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39f7485a-028d-4036-a40d-ea54d656b958" name="Changes" comment="" />
+      <created>1693949244691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693949244691</updated>
+    </task>
+    <servers />
+  </component>
+</project>
